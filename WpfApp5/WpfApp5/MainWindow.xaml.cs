@@ -32,7 +32,7 @@ namespace WpfApp5
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string[] str = Tb1.Text.Split('.','!','?');
+            string[] str = Tb1.Text.Split('.','!','?',':');
             int a = 0;
             for(int i = 0; i< str.Length; i++) 
             {
